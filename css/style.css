@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+  src: url('../font/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),  url('../font/AvenirNextLTPro-Regular.otf')  format('opentype'),
+	     url('../font/AvenirNextLTPro-Regular.woff') format('woff'), url('../font/AvenirNextLTPro-Regular.ttf')  format('truetype'), url('../font/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'AvenirNextLTPro-Bold';
+  src: url('../font/AvenirNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),  url('../font/AvenirNextLTPro-Bold.otf')  format('opentype'),
+	     url('../font/AvenirNextLTPro-Bold.woff') format('woff'), url('../font/AvenirNextLTPro-Bold.ttf')  format('truetype'), url('../font/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'AvenirNextLTPro-Regular';
+  color: #333;
+  line-height: 1.1;
+  margin:0;
+  padding:0;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+    background: rgba(255,255,255,0);
+}
+
+a.bg_link {
+  color: #fff;
+  text-decoration: none;
+  background: #ffb23e;
+  padding: 0.6rem 1rem 0.3rem 1rem;
+  transition: all 0.2s ease-out;
+  position: relative;
+}
+
+a.bg_link:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #ffb23e;
+  padding: 0.6rem 1rem 0.3rem 1rem;
+  transition: all 0.2s ease-out;
+  position: relative;
+}
+
+h4 {
+  font-size: 1.5rem;
+  color: #6D6D6D;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: 'AvenirNextLTPro-Bold';
+  max-width: 75rem;
+}
+
+.upper-space-big {
+    margin-top: 1rem;
+}
+
+p {
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+
+strong {
+    font-family: 'AvenirNextLTPro-Bold';
+}
+
+.underline {
+    border-bottom: 0.4rem solid #ffb23e;
+}
+
+.hello {
+    top: 25.5em;
+    max-width: 48rem;
+}
+
+.contact {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+}
+.contact a {
+    font-size: 1.4rem;
+    border-radius: 3px;
+}
+
+#mybody {
+  min-height:100%;
+	position:relative;
+  padding: 4rem 11rem;
+  padding-bottom:60px;
+}
+
+.myfooter {
+  height: 160px;
+  background: rgba(231, 231, 231, 0.5);
+  border-radius: 7px;
+  padding: 15px;
+  margin: 15px;
+  bottom: 0;
+  position: absolute;
+  width: 98%;
+}
+
+#portrait {
+  width: 200px;
+  border-style: solid;
+  border-width: 12px;
+  border-radius: 100%;
+  border-color: rgba(231, 231, 231, 0.5);
+  margin: 20px;
+}
