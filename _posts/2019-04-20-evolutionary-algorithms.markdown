@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Evolutionary Algorithms"
 date:   2019-04-20 21:09:45 +0100
-categories: jekyll update
+categories: Evolutionary Algorithms
 ---
 Definition: Evolutionary Algorithms are a randomly generated population of solutions that gradually evolves to improve a fitness of the population.
 
