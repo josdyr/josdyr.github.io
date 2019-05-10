@@ -17,7 +17,7 @@
 
 body {
   font-family: 'AvenirNextLTPro-Regular';
-  color: #333;
+  color: #404040;
   line-height: 1.1;
   margin:0;
   padding:0;
@@ -88,8 +88,9 @@ strong {
 }
 
 .hello {
-    top: 25.5em;
-    max-width: 48rem;
+  padding: 40px 0;
+  top: 25.5em;
+  max-width: 48rem;
 }
 
 .contact {
@@ -105,7 +106,7 @@ strong {
 #mybody {
   min-height:100%;
 	position:relative;
-  padding: 4rem 11rem;
+  padding: 4rem 9rem;
   padding-bottom:60px;
 }
 
