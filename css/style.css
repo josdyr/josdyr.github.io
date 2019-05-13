@@ -18,6 +18,7 @@
 body {
   font-family: 'AvenirNextLTPro-Regular';
   color: #e3e3e3;
+  background: #222629;
   line-height: 1.1;
   margin:0;
   padding:0;
@@ -112,7 +113,7 @@ strong {
 
 .myfooter {
   height: 160px;
-  background: rgba(231, 231, 231, 0.5);
+  background: #252B2F;
   border-radius: 7px;
   padding: 15px;
   margin: 15px;
