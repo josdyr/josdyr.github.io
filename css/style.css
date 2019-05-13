@@ -51,23 +51,23 @@ a.bg_link:hover {
   position: relative;
 }
 
-h4 {
-  font-size: 1.5rem;
-  color: #6D6D6D;
-}
-
-h3 {
-  font-size: 2rem;
+h1 {
+  font-size: 3rem;
+  font-family: 'AvenirNextLTPro-Bold';
+  max-width: 75rem;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
-h1 {
-  font-size: 4rem;
-  font-family: 'AvenirNextLTPro-Bold';
-  max-width: 75rem;
+h3 {
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  color: #6D6D6D;
 }
 
 .upper-space-big {
@@ -75,7 +75,7 @@ h1 {
 }
 
 p {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 
@@ -99,14 +99,14 @@ strong {
     line-height: 3.2rem;
 }
 .contact a {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     border-radius: 3px;
 }
 
 #mybody {
   min-height:100%;
 	position:relative;
-  padding: 4rem 9rem;
+  padding: 4rem 4rem;
   padding-bottom:60px;
 }
 
