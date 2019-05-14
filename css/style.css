@@ -37,7 +37,7 @@ a:hover {
 a.bg_link {
   color: #fff;
   text-decoration: none;
-  background: #ffb23e;
+  background: rgba(0, 123, 255, 1);
   padding: 0.6rem 1rem 0.3rem 1rem;
   transition: all 0.2s ease-out;
   position: relative;
@@ -46,7 +46,7 @@ a.bg_link {
 a.bg_link:hover {
   color: #fff;
   text-decoration: none;
-  background: #ffb23e;
+  background: rgba(0, 123, 255, 1);
   padding: 0.6rem 1rem 0.3rem 1rem;
   transition: all 0.2s ease-out;
   position: relative;
@@ -85,7 +85,7 @@ strong {
 }
 
 .underline {
-    border-bottom: 0.4rem solid #ffb23e;
+    border-bottom: 0.4rem solid rgba(0, 123, 255, 1); /* #ffb23e */
 }
 
 .hello {
@@ -104,10 +104,8 @@ strong {
     border-radius: 3px;
 }
 
-#mybody {
-  min-height:100%;
-	position:relative;
-  padding: 4rem 4rem;
+.container-fluid {
+  padding: .01rem 4rem;
   padding-bottom:60px;
 }
 
@@ -118,8 +116,21 @@ strong {
   padding: 15px;
   margin: 15px;
   bottom: 0;
-  position: absolute;
   width: 98%;
+}
+
+.nav {
+  height: 80px;
+  background: #252B2F;
+  border-radius: 7px;
+  padding: 15px 0;
+  margin: 15px 15px;
+  bottom: 0;
+  width: 98%;
+}
+
+.nav-link {
+  padding: 1.1rem 0;
 }
 
 #portrait {

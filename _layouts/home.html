@@ -10,26 +10,20 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <div id="mybody">
-      <h2 class="upper-space-big">I'm working on</h2>
-      <h1>
-        <span class="typer" id="some-id" data-delay="75" data-delim=" || " data-deleteDelay="4000"
-        data-words="Deep Q Network in Non-Deternimistic Simulation. || AI algorithms for solving checkers. || Using multi-threading techniques to speedup blockchain systems."
-        data-colors="#ecebeb"></span>
-        <span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span>
-      </h1>
-      <div class="hello">
-        <p>
-          Hello, I’m <span class="underline"><a href="about.html">Jostein</a></span>, a passionate Computer Scientist studying at Edinburgh Napier University, UK.
-          <br>
-          <br>
-          I'm very interested in using Machine Learning and AI tools to optimise agents and their algorithms.
-          <br>
-          <br>
-          Check out my blog entries to see more of what I'm up to!
-          <a href="blog.html"><button type="button" class="btn btn-light">Blog</button></a>
-        </p>
-      </div>
+    <nav class="nav nav-pills flex-column flex-sm-row">
+      <a class="flex-sm-fill text-sm-center nav-link active" href="/">Home</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="/work">Work</a>
+      <a class="flex-sm-fill text-sm-center nav-link hover" href="/blog">Blog</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="/about">About</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="/cv">CV</a>
+    </nav>
+
+    <div class="container-fluid">
+
+      <!-- /jekyll/update/2019/04/20/evolutionary-algorithms.html -->
+
+      {{ content }}
+
     </div>
 
     <div class="myfooter">
@@ -38,10 +32,6 @@
         <a class="bg_link" href="mailto:josdyr@gmail.com"><strong>josdyr@gmail.com</strong></a>
         <a class="bg_link" href="http://linkedin.com/in/josdyr" target="_blank"><strong>linkedin.com/in/josdyr</strong></a><br>
       </p>
-
-      <!-- wrapper
-      {{ content }}
-      wrapper -->
 
     </div>
     <!-- Optional JavaScript -->
