@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
@@ -12,23 +13,51 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
 
-    <title>Hello, world!</title>
+    <title>Jostein's Portfolio</title>
   </head>
   <body>
-    <nav class="nav nav-pills flex-column flex-sm-row">
-      <a class="flex-sm-fill text-sm-center nav-link active" href="/">Home</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="/work">Work</a>
-      <a class="flex-sm-fill text-sm-center nav-link hover" href="/blog">Blog</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="/about">About</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="/jostein_dyrseth_cv.pdf">CV</a>
+    <nav class="nav nav-pills flex-column flex-md-row">
+      <li class="nav-item">
+        <a class="flex-sm-fill text-sm-center nav-link active" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="flex-sm-fill text-sm-center nav-link" data-toggle="pill" href="/work" role="tab">Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="flex-sm-fill text-sm-center nav-link" data-toggle="pill" href="/blog" role="tab">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="flex-sm-fill text-sm-center nav-link" data-toggle="pill" href="/about" role="tab">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="flex-sm-fill text-sm-center nav-link" data-toggle="pill" href="/jostein_dyrseth_cv.pdf" role="tab">CV</a>
+      </li>
     </nav>
+    <div class="tab-content">
+      <div class="tab-pane fade show active" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+      <div class="tab-pane fade" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+      <div class="tab-pane fade" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+    </div>
+
+    <ul class="nav nav-pills mb-3" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="/work" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+      </li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane fade show active" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+      <div class="tab-pane fade" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+      <div class="tab-pane fade" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+    </div>
 
     <div class="container-fluid">
-
-      <!-- /jekyll/update/2019/04/20/evolutionary-algorithms.html -->
-
       {{ content }}
-
     </div>
 
     <div class="myfooter">
