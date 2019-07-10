@@ -35,7 +35,7 @@ a:hover {
 a.bg_link {
   color: #fff;
   text-decoration: none;
-  background: rgba(0, 123, 255, 1);
+  background: rgba(102, 102, 102, 1);
   padding: 0.6rem 1rem 0.3rem 1rem;
   transition: all 0.2s ease-out;
   position: relative;
@@ -108,7 +108,7 @@ strong {
 
 .myfooter {
   height: 160px;
-  background: #252B2F;
+  background: rgba(39, 46, 50, 0.90);
   border-radius: 7px;
   padding: 15px;
   margin: 15px;
@@ -118,7 +118,7 @@ strong {
 
 .nav {
   height: 80px;
-  background: #252B2F;
+  background: rgba(39, 46, 50, 0.90);
   border-radius: 7px;
   padding: 15px 15px;
   margin: 15px 15px;
@@ -139,12 +139,53 @@ strong {
   margin: 20px;
 }
 
+#min-portrait {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 100%;
+  border-color: rgba(45, 51, 56, 1);
+  max-height: 43px;
+  width: auto;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
 .card {
-  border-radius: 14px;
+  border-radius: 5px;
   width: 23rem;
 }
 
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.centered-content {
+  margin: 0 20%;
+}
+
+.text-content {
+  color: rgb(207, 207, 207);
+  font-size: 1.15rem;
+}
+
+.card-img-top {
+  height: 230px;
+  overflow: hidden;
+}
+
+.card-img-top img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.blog-metadata {
+
+}
+
+.blog-metadata-text {
+  width: 30%;
+  font-size: 0.9rem;
+  color: rgb(148, 148, 148);
 }
