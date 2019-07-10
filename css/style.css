@@ -138,3 +138,13 @@ strong {
   border-color: rgba(45, 51, 56, 1);
   margin: 20px;
 }
+
+.card {
+  border-radius: 14px;
+  width: 23rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
