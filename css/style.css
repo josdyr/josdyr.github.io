@@ -29,25 +29,19 @@ a {
 }
 
 a:hover {
-    background: rgba(255,255,255,0);
+  background: rgba(255,255,255,0);
 }
 
 a.bg_link {
-  color: #fff;
+  color: #c2c2c2;
   text-decoration: none;
   background: rgba(102, 102, 102, 1);
-  padding: 0.6rem 1rem 0.3rem 1rem;
-  transition: all 0.2s ease-out;
-  position: relative;
+  padding: 0.3rem .6rem;
 }
 
 a.bg_link:hover {
-  color: #fff;
   text-decoration: none;
   background: rgba(0, 123, 255, 1);
-  padding: 0.6rem 1rem 0.3rem 1rem;
-  transition: all 0.2s ease-out;
-  position: relative;
 }
 
 div {
@@ -74,15 +68,15 @@ h4 {
 }
 
 .upper-space-big {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 strong {
-    font-family: 'AvenirNextLTPro-Bold';
+  font-family: 'AvenirNextLTPro-Regular';
 }
 
 .underline {
-    border-bottom: 0.4rem solid rgba(0, 123, 255, 1); /* #ffb23e */
+  border-bottom: 0.4rem solid rgba(0, 123, 255, 1);
 }
 
 .hello {
@@ -93,13 +87,13 @@ strong {
 }
 
 .contact {
-    margin-top: 1rem;
-    font-size: 1.8rem;
-    line-height: 3.2rem;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
 }
 .contact a {
-    font-size: 1.2rem;
-    border-radius: 3px;
+  font-size: 1.2rem;
+  border-radius: 3px;
 }
 
 .container-fluid {
@@ -114,6 +108,7 @@ strong {
   margin: 15px;
   bottom: 0;
   width: 98%;
+  color: rgb(184, 184, 184);
 }
 
 .nav {
@@ -124,6 +119,7 @@ strong {
   margin: 15px 15px;
   bottom: 0;
   width: 98%;
+  font-family: 'AvenirNextLTPro-Regular';
 }
 
 .nav-link {
@@ -161,6 +157,10 @@ strong {
 }
 
 .centered-content {
+  margin: 0 17%;
+}
+
+.centered-content-blog {
   margin: 0 20%;
 }
 
@@ -180,12 +180,25 @@ strong {
   transform: translateY(-50%);
 }
 
-.blog-metadata {
-
-}
-
 .blog-metadata-text {
   width: 30%;
   font-size: 0.9rem;
+  color: rgb(148, 148, 148);
+}
+
+.center-card {
+  font-family: 'AvenirNextLTPro-Regular';
+}
+
+#ghcard-josdyr-1 {
+  margin: 0 auto;
+}
+
+.gh-card {
+  width: 38%;
+  margin: 0 auto;
+}
+
+.gh-card-footer {
   color: rgb(148, 148, 148);
 }
