@@ -25,17 +25,17 @@ body {
 
 a {
   color: #e3e3e3;
-  text-decoration: none;
 }
 
 a:hover {
   background: rgba(255,255,255,0);
+  text-decoration: none;
 }
 
 a.bg_link {
-  color: #c2c2c2;
+  color: #8c8c8c;
   text-decoration: none;
-  background: rgba(102, 102, 102, 1);
+  background: rgba(0, 0, 0, 0.1);
   padding: 0.3rem .6rem;
 }
 
@@ -80,9 +80,8 @@ strong {
 }
 
 .hello {
-  padding: 40px 0;
+  padding: 60px 0;
   top: 25.5em;
-  max-width: 48rem;
   font-size: 1.5rem;
 }
 
@@ -112,18 +111,21 @@ strong {
 }
 
 .nav {
-  height: 80px;
   background: rgba(39, 46, 50, 0.90);
   border-radius: 7px;
-  padding: 15px 15px;
   margin: 15px 15px;
-  bottom: 0;
   width: 98%;
   font-family: 'AvenirNextLTPro-Regular';
+  padding: 15px 7px;
 }
 
 .nav-link {
-  padding: 1.1rem 0;
+  padding: 14px 0;
+  margin: 0 7px;
+}
+
+.nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 #portrait {
@@ -148,7 +150,15 @@ strong {
 
 .card {
   border-radius: 5px;
+  border-width: 5px;
+  border-color: rgba(0, 123, 255, 0);
   width: 23rem;
+}
+
+.card:hover {
+  border-radius: 5px;
+  border-color: rgba(0, 123, 255, 1);
+  border-width: 5px;
 }
 
 .img-fluid {
@@ -161,7 +171,7 @@ strong {
 }
 
 .centered-content-blog {
-  margin: 0 20%;
+  margin: 0 25%;
 }
 
 .text-content {
@@ -201,4 +211,21 @@ strong {
 
 .gh-card-footer {
   color: rgb(148, 148, 148);
+}
+
+.chat-bubble {
+  background-color: rgba(181, 181, 181, 0.08);
+  width: 400px;
+  padding: .7rem 1.8rem;
+  border-radius: 30px;
+}
+
+.triangle {
+  margin: 0 0 0 40px;
+  width: 60px;
+  height: 60px;
+  border-left: 0px solid transparent;
+	border-right: 60px solid transparent;
+	border-top: 60px solid rgba(181, 181, 181, 0.08);
+
 }

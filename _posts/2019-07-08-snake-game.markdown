@@ -1,7 +1,8 @@
 ---
 layout: home
-title:  "Deep Q Network in Non-Deterministic Simulation"
+title:  "Deep Q Network in Non-Deterministic Simulation 🐍"
 date:   2019-07-08 06:44:31
+length: ", 3 min read"
 categories: blog
 permalink: blog/:title
 comments: true
@@ -15,12 +16,13 @@ intro: "This is a snake agent based simulation, trying to avoid the dangers of c
     </div>
     <div class="blog-metadata-text">
       <i>by Jostein Dyrseth</i><br>
-      <i>{{page.date | date_to_long_string}}</i><br>
+      <i>{{page.date | date_to_long_string}}</i>
+      <i>{{ page.length }}</i>
     </div>
   </div>
   <br>
   <div class="text-content">
-    This is a snake agent based simulation, trying to avoid the dangers of colliding into itself or the walls while trying to get the highest possible score from eating apples.<br><br>
+    This is a snake agent based simulation, trying to avoid the dangers of colliding into itself or the walls while trying to get the highest possible score from eating apples 🍎<br><br>
 
     Attaking machine learning and reinforcement learning like never before, I decided to take on a broad and challenging project into my own hands.<br><br>
 
@@ -37,7 +39,7 @@ intro: "This is a snake agent based simulation, trying to avoid the dangers of c
         <div class="github-card" data-github="josdyr/Snake_Game" data-width="400" data-height="153" data-theme="default"></div>
         <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
         <div class="gh-card-footer">
-          <p>Follow me on GitHub and fork the repo to play around with it, or follow the instructions to build it from sctratch, yourself! 😅</p>
+          <p>Follow me on GitHub and  the repo to play around with it, or follow the instructions to build it from sctratch, yourself! 🤓</p>
         </div>
       </div>
     </div>
