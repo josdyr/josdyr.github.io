@@ -9,18 +9,19 @@ comments: true
 intro: "This is a snake agent based simulation, trying to avoid the dangers of colliding into itself or the walls while trying to get the highest possible score from eating apples."
 ---
 <div class="centered-content-blog">
-  <h1>{{page.title }}</h1>
-  <div class="blog-metadata">
-    <div class="portrait">
-      <img id="min-portrait" src="../IMG_1193.png" alt="">
-    </div>
-    <div class="blog-metadata-text">
-      <i>by Jostein Dyrseth</i><br>
-      <i>{{page.date | date_to_long_string}}</i>
-      <i>{{ page.length }}</i>
+  <div id="jumbotrone">
+    <h1>{{page.title }}</h1>
+    <div class="blog-metadata">
+      <div class="portrait">
+        <img id="min-portrait" src="../IMG_1193.png" alt="">
+      </div>
+      <div class="blog-metadata-text">
+        <i>by Jostein Dyrseth</i><br>
+        <i>{{page.date | date_to_long_string}}</i>
+        <i>{{ page.length }}</i>
+      </div>
     </div>
   </div>
-  <br>
   <div class="text-content">
     This is a snake agent based simulation, trying to avoid the dangers of colliding into itself or the walls while trying to get the highest possible score from eating apples 🍎<br><br>
 
@@ -30,11 +31,11 @@ intro: "This is a snake agent based simulation, trying to avoid the dangers of c
 
     In classical AI, one of the first things we learn is the agents’ preceptors and actuators. The preceptors are the agents’ vision and sensory system, to let it perceive and collect data from the outside world and bring it internally to possibly process, memorise and train for later.<br><br>
 
-    <img src="../snake_img.png" alt="snake img" style="display: block;margin: 0 auto;max-width: 55%;"><br><br>
+    <img src="../snake_img.png" alt="snake img" style="display: block;margin: 0 auto;max-width: 55%;"><br>
 
     The actuators on the other hand are things like its limbs or wheels, motors, speakers and other means of affecting the environment. Over time, the agent will often build a set of if-then rules from its collected data, so that it knows for instance where it is, how the environment seem to behave and what to do in the future - normally to achieve a specific task. The task is normally to change the environment’s state - the end goal. So for instance to hover all dust particles, remove all space junk or sort recycled waste.<br><br>
 
-    <div class="center-card">
+    <div class="center-card jumbotrone">
       <div class="gh-card">
         <div class="github-card" data-github="josdyr/Snake_Game" data-width="400" data-height="153" data-theme="default"></div>
         <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>

@@ -56,6 +56,8 @@ h1 {
 
 h2 {
   font-size: 3rem;
+  font-family: 'AvenirNextLTPro-Bold';
+  color: #ffe267;
 }
 
 h3 {
@@ -80,7 +82,7 @@ strong {
 }
 
 .hello {
-  padding: 60px 0;
+  padding: 350px 0 0 0;
   top: 25.5em;
   font-size: 1.5rem;
 }
@@ -101,7 +103,8 @@ strong {
 
 .myfooter {
   height: 160px;
-  background: rgba(39, 46, 50, 0.90);
+  /* background: rgba(39, 46, 50, 0.90); */
+  background: radial-gradient(circle at 0, #242c32, #282f34);
   border-radius: 7px;
   padding: 15px;
   margin: 15px;
@@ -111,7 +114,8 @@ strong {
 }
 
 .nav {
-  background: rgba(39, 46, 50, 0.90);
+  /* background: rgba(39, 46, 50, 0.90); */
+  background: radial-gradient(circle at 0, #242c32, #282f34);
   border-radius: 7px;
   margin: 15px 15px;
   width: 98%;
@@ -135,16 +139,17 @@ strong {
   border-radius: 100%;
   border-color: rgba(45, 51, 56, 1);
   margin: 20px;
+  float: left;
 }
 
 #min-portrait {
   border-style: solid;
-  border-width: 3px;
+  border-width: 5px;
   border-radius: 100%;
-  border-color: rgba(45, 51, 56, 1);
+  border-color: rgba(68, 68, 68, 0.8);
   max-height: 43px;
   width: auto;
-  float: left;
+  /* float: left; */
   margin: 0 10px 0 0;
 }
 
@@ -171,7 +176,7 @@ strong {
 }
 
 .centered-content-blog {
-  margin: 0 25%;
+  margin: 0 18%;
 }
 
 .text-content {
@@ -191,9 +196,9 @@ strong {
 }
 
 .blog-metadata-text {
-  width: 30%;
+  width: 100%;
   font-size: 0.9rem;
-  color: rgb(148, 148, 148);
+  color: rgba(214, 214, 214, 0.75);
 }
 
 .center-card {
@@ -214,18 +219,37 @@ strong {
 }
 
 .chat-bubble {
-  background-color: rgba(181, 181, 181, 0.08);
+  background: radial-gradient(circle at 0, #242c32, #282f34);
   width: 400px;
   padding: .7rem 1.8rem;
   border-radius: 30px;
+  border-bottom: 20px;
+  border-bottom: #574e24 solid 5px;
+  float: left;
+  margin: 17px 0 0 0;
 }
 
 .triangle {
-  margin: 0 0 0 40px;
+  margin: 187px 0 0 280px;
   width: 60px;
   height: 60px;
   border-left: 0px solid transparent;
 	border-right: 60px solid transparent;
 	border-top: 60px solid rgba(181, 181, 181, 0.08);
+  float: left;
+  position: absolute;
+}
+#jumbotrone {
+  margin: 20px -20px 30px -20px;
+  /* background-color: rgba(39, 46, 50, 0.90); */
+  background: radial-gradient(circle at 0, rgba(37, 134, 238, 0.73), rgb(185, 146, 230, .83));
+  border-bottom: rgba(26, 59, 93, 1) solid 5px;
+  border-radius: 8px;
+  padding: 20px;
+}
 
+.about-wrapper {
+  width: 80%;
+  background-color: rgb(142, 142, 142);
+  text-align: center;
 }
