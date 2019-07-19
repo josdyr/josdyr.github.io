@@ -16,7 +16,7 @@
 }
 
 body {
-  /* font-family: 'AvenirNextLTPro-Regular'; */
+  font-family: 'AvenirNextLTPro-Regular';
   background: #222629;
   margin:0;
   padding:0;
@@ -82,7 +82,7 @@ strong {
 }
 
 .hello {
-  padding: 350px 0 0 0;
+  padding: 190px 0 0 0;
   top: 25.5em;
   font-size: 1.5rem;
 }
@@ -109,7 +109,6 @@ strong {
   padding: 15px;
   margin: 15px;
   bottom: 0;
-  width: 98%;
   color: rgb(184, 184, 184);
 }
 
@@ -118,9 +117,8 @@ strong {
   background: radial-gradient(circle at 0, #242c32, #282f34);
   border-radius: 7px;
   margin: 15px 15px;
-  width: 98%;
   font-family: 'AvenirNextLTPro-Regular';
-  padding: 15px 7px;
+  padding: 1rem .5rem;
 }
 
 .nav-link {
@@ -149,7 +147,7 @@ strong {
   border-color: rgba(68, 68, 68, 0.8);
   max-height: 43px;
   width: auto;
-  /* float: left; */
+  float: left;
   margin: 0 10px 0 0;
 }
 
@@ -176,7 +174,7 @@ strong {
 }
 
 .centered-content-blog {
-  margin: 0 18%;
+  margin: 0 15%;
 }
 
 .text-content {
