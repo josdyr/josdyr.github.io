@@ -6,4 +6,6 @@ categories: blog
 permalink: blog/:title
 intro: "Redlab is a community for IoT enthusiasts. This was developed as a content management system with admin and user features."
 ---
-Redlab blog post coming.
+<div class="container">
+  Redlab blog post coming.
+</div>

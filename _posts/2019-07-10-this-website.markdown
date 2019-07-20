@@ -6,4 +6,6 @@ categories: blog
 permalink: blog/:title
 intro: "This is a snake agent based simulation, trying to avoid the dangers of colliding into itself or the walls while trying to get the highest possible score from eating apples."
 ---
-This Website blog post coming.
+<div class="container">
+  This Website blog post coming.
+</div>
