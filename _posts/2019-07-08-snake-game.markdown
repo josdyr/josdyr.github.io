@@ -50,7 +50,7 @@ intro: "This is a snake agent based simulation, trying to avoid the dangers of c
 
     <p>In our case though, the snake only have a very basic set of preceptors and actuators. These needs to be defined in a way that is fair and practical. The thing here is that, since our goal is to make a simulation and a snake-like agent as opposed to a human-player agent, we will try to limit the perception that the snake has over the environment or the board. If a human plays snake, the human will have vision over the whole board, but if we program it from the snake's perspective, it will basically only "see" what is in front of him and arguably to the sides. The snake obviously lives in a 2D world only seeing in 1 Dimention. Just like humans - living in 3 Dimentions - only sees in 2 dimensions. This is exactly how we will try to implement it.</p>
 
-    <p>If you want to read the full white paper that I have published, you can do so <a class="yellow-inline-link" href="#">here</a>.</p>
+    <p>If you want to read the full white paper that I have published, you can do so <a class="yellow-inline-link" href="/jostein_dyrseth_dissertation_2019.pdf">here</a>.</p>
 
     <div class="gh-card">
       <div class="github-card" data-github="josdyr/Snake_Game" data-width="400" data-height="153" data-theme="default"></div>
