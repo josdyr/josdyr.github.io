@@ -23,9 +23,9 @@ intro: "This is a snake agent based simulation, trying to avoid the dangers of c
         </div>
       </div>
     </div>
-    <p>Attacking machine learning and reinforcement learning like never before, I decided to take on a broad and challenging project.</p>
+    <p>Attacking machine learning and reinforcement learning like never before, it was decided to take on a broad and challenging project.</p>
 
-    <p>I decided that I wanted to start a small project and build from there, so I came up with the simplest scenario I could think of - a snake simulation! I wanted to use the basic principles from the classic arcade game. The goal is for the snake agent to play all by itself and make all decisions (moves) by itself to optimise the score and eat as many apples 🍎 as it can. Is it possible to make the snake fill the whole board? This is what I ideally want to achieve. But How?</p>
+    <p>A small project were made and built from scratch. The simplest scenario possible - a snake simulation! I wanted to use the basic principles from the classic arcade game. The goal is for the snake agent to play all by itself and make all decisions (moves) by itself to optimise the score and eat as many apples 🍎 as it can. Is it possible to make the snake fill the whole board? This is what I ideally want to achieve. But How?</p>
 
     <p>To start off, we need to properly understand how we even can build a system that learns from its own experience. We want a system that can learn from its mistakes and get rewarded from its positive actions. In other words, to train the agent to optimally play the game. This is referred to as reinforcement learning within the machine learning and AI world.</p>
 
