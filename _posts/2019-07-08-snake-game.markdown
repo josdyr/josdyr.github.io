@@ -31,6 +31,13 @@ intro: "This is a snake agent based simulation, trying to avoid the dangers of c
 
     <p>To teach the agent, we need a teacher. The teacher in this case will be the environment - or game - which it is inside of!</p>
 
+    <img src="../markov.png" alt="markov decision process" style="display: block; margin: 0 auto; max-width: 60%; mix-blend-mode: overlay;border-radius: 7px;"><br>
+    <div class="gh-card">
+      <div class="gh-card-footer">
+        <p>source: https://deepai.org/machine-learning-glossary-and-terms/markov-model</p>
+      </div>
+    </div>
+
     <p>So by now we have introduced two components. And in its simplest form that’s it! The agent and the environment! The agent is the learner and the environment is its teacher.</p>
 
     <p>The only thing we will do is model the game, simulation and agent with it’s neural network. The neural network will act as the snake’s brain and the network will eventually adapt and get tweaked based on the feedback the snake gets from it’s environment as rewards or penalties.</p>
@@ -42,11 +49,13 @@ intro: "This is a snake agent based simulation, trying to avoid the dangers of c
     <p>In classical AI, one of the first things we learn is the agents’ preceptors and actuators. The preceptors are the agents’ vision and sensory system, to let it perceive and collect data from the outside world and bring it internally to possibly process, memorise and train for later.</p>
 
     <img src="../snake_img.png" alt="snake img" style="display: block;margin: 0 auto;max-width: 55%;"><br>
+    <div class="gh-card">
+      <div class="gh-card-footer">
+        <p>Illustration of the snake.</p>
+      </div>
+    </div>
 
     <p>The actuators on the other hand are things like its limbs or wheels, motors, speakers and other means of affecting the environment. Over time, the agent will often build a set of if-then rules from its collected data, so that it knows for instance where it is, how the environment seem to behave and what to do in the future - normally to achieve a specific task. The task is normally to change the environment’s state - the end goal. So for instance to hover all dust particles, remove all space junk or sort recycled waste.</p>
-
-    <img src="../markov.png" alt="markov decision process" style="display: block; margin: 0 auto; max-width: 80%; mix-blend-mode: overlay;border-radius: 7px;"><br>
-    source: https://deepai.org/machine-learning-glossary-and-terms/markov-model
 
     <p>In our case though, the snake only have a very basic set of preceptors and actuators. These needs to be defined in a way that is fair and practical. The thing here is that, since our goal is to make a simulation and a snake-like agent as opposed to a human-player agent, we will try to limit the perception that the snake has over the environment or the board. If a human plays snake, the human will have vision over the whole board, but if we program it from the snake's perspective, it will basically only "see" what is in front of him and arguably to the sides. The snake obviously lives in a 2D world only seeing in 1 Dimention. Just like humans - living in 3 Dimentions - only sees in 2 dimensions. This is exactly how we will try to implement it.</p>
 
