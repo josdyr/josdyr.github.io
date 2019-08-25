@@ -75,7 +75,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: 'AvenirNextLTPro-Bold';
   color: rgba(255, 226, 103, 1);
 }
@@ -297,7 +297,7 @@ div.gh-card > div > p {
 }
 
 .container {
-  padding: 15px 0;
+  padding: 0;
 }
 
 @media (min-width: 576px) {
