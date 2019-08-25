@@ -291,9 +291,16 @@ div.gh-card > div > p {
   margin: 0 -5px;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .container {
     width: 97%;
+  }
+  .nav {
+    display: list-item;
+  }
+  .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(255, 226, 103, 1);
   }
 }
 
