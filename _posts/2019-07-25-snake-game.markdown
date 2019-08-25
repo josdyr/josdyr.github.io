@@ -14,7 +14,7 @@ intro: "This is a snake agent based simulation, trying to avoid the dangers of c
       <h1>{{page.title }}</h1>
       <div class="blog-metadata">
         <div class="portrait">
-          <img id="min-portrait" src="../IMG_1193.png" alt="">
+          <img id="min-portrait" src="../IMG_0657_5.png" alt="">
         </div>
         <div class="blog-metadata-text">
           <i>by Jostein Dyrseth</i><br>
@@ -25,13 +25,13 @@ intro: "This is a snake agent based simulation, trying to avoid the dangers of c
     </div>
     <p>Attacking machine learning and reinforcement learning like never before, it was decided to take on a broad and challenging project.</p>
 
-    <p>A small project were made and built from scratch. The simplest scenario possible - a snake simulation! I wanted to use the basic principles from the classic arcade game. The goal is for the snake agent to play all by itself and make all decisions (moves) by itself to optimise the score and eat as many apples 🍎 as it can. Is it possible to make the snake fill the whole board? This is what I ideally want to achieve. But How?</p>
+    <p>A small project were made and built from scratch. The simplest scenario possible - a snake simulation! I wanted to use the basic principles from the classic arcade game. The goal is for the snake agent to play all by itself and make all decisions (moves) by itself to optimise the score and eat as many 🍎s as it can. Is it possible to make the snake fill the whole board? This is what I ideally want to achieve. But How?</p>
 
     <p>To start off, we need to properly understand how we even can build a system that learns from its own experience. We want a system that can learn from its mistakes and get rewarded from its positive actions. In other words, to train the agent to optimally play the game. This is referred to as reinforcement learning within the machine learning and AI world.</p>
 
     <p>To teach the agent, we need a teacher. The teacher in this case will be the environment - or game - which it is inside of!</p>
 
-    <img src="../markov.png" alt="markov decision process" style="display: block; margin: 0 auto; max-width: 60%; mix-blend-mode: overlay;border-radius: 7px;"><br>
+    <img src="../markov.png" alt="markov decision process" style="display: block; margin: 0 auto; max-width: 60%; border-radius: 7px;"><br>
     <div class="gh-card">
       <div class="gh-card-footer">
         <p>source: https://deepai.org/machine-learning-glossary-and-terms/markov-model</p>

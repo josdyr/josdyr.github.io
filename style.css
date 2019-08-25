@@ -86,7 +86,7 @@ h3 {
 }
 
 i {
-  color: rgb(143, 143, 143);
+  color: rgb(187, 187, 187);
 }
 
 h4 {
@@ -106,9 +106,13 @@ strong {
   border-bottom: 0.4rem solid rgba(255, 226, 103, 1);
 }
 
+.underline a:hover {
+  color: rgba(255, 226, 103, 1);
+}
+
 .hello {
-  font-size: 1.5rem;
-  margin: 60px 0 0 0;
+  font-size: 1.3rem;
+  margin: 60px 400px 200px 0;
 }
 
 .contact {
@@ -136,9 +140,9 @@ strong {
   padding: 15px;
   color: rgb(184, 184, 184);
   bottom: 15px;
-  position: absolute;
-  margin: 15px 0 0 0;
-  width: 98%;
+  /* position: absolute; */
+  margin: 35px 0 0 0;
+  /* width: 98%; */
 }
 
 .nav-link {
@@ -213,7 +217,7 @@ strong {
 
 .blog-metadata-text {
   width: 100%;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: rgba(214, 214, 214, 0.75);
 }
 
@@ -257,12 +261,12 @@ div.gh-card > div > p {
   position: absolute;
 }
 #jumbotrone {
-  margin: 20px 0 30px 0;
+  margin: 20px -20px 30px -20px;
   padding: 0 20px;
   /* background-color: rgba(39, 46, 50, 0.90); */
   background: radial-gradient(circle at 0, rgba(37, 134, 238, 0.73), rgb(185, 146, 230, .83));
   border-bottom: rgba(26, 59, 93, 1) solid 5px;
-  border-radius: 8px;
+  border-radius: 18px;
   padding: 20px;
 }
 
@@ -275,11 +279,8 @@ div.gh-card > div > p {
 
 .blog-entry p {
   margin: 0 0 1.3em 0;
-  font-size: 1.3rem;
-}
-
-.blog-entry {
-  margin: 0 0 175px 0;
+  font-size: 1.2rem;
+  color: rgb(190, 190, 190);
 }
 
 .col-sm-4 {
@@ -288,4 +289,28 @@ div.gh-card > div > p {
 
 .row {
   margin: 0 -5px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 97%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 70%;
+  }
 }
