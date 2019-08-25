@@ -54,13 +54,13 @@ h2 a:hover {
 a.bg_link {
   color: #8c8c8c;
   text-decoration: none;
-  background: rgba(0, 0, 0, 0.1);
-  padding: 0.3rem .6rem;
+  background: rgba(0, 0, 0, 0.15);
+  padding: 0.5rem .6rem;
 }
 
 a.bg_link:hover {
   text-decoration: none;
-  /* background: rgba(0, 123, 255, 1); */
+  color: rgb(54, 54, 54);
   background: rgba(255, 226, 103, 1);
 }
 
@@ -75,7 +75,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: 'AvenirNextLTPro-Bold';
   color: rgba(255, 226, 103, 1);
 }
@@ -112,11 +112,13 @@ strong {
 
 .hello {
   font-size: 1.3rem;
-  margin: 60px 400px 200px 0;
+  margin-top: 60px;
+  margin-bottom: 170px;
 }
 
 .contact {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
+  height: 100px;
   font-size: 1.8rem;
   line-height: 3.2rem;
 }
@@ -251,12 +253,12 @@ div.gh-card > div > p {
 }
 
 .triangle {
-  margin: 188px 0 0 280px;
+  margin: 268px 0 0 180px;
   width: 60px;
   height: 193px;
   border-left: 0px solid transparent;
 	border-right: 60px solid transparent;
-	border-top: 60px solid rgba(181, 181, 181, 0.08);
+	border-top: 60px solid rgba(181, 181, 181, 0);
   float: left;
   position: absolute;
 }
@@ -266,15 +268,18 @@ div.gh-card > div > p {
   /* background-color: rgba(39, 46, 50, 0.90); */
   background: radial-gradient(circle at 0, rgba(37, 134, 238, 0.73), rgb(185, 146, 230, .83));
   border-bottom: rgba(26, 59, 93, 1) solid 5px;
-  border-radius: 18px;
+  border-radius: 8px;
   padding: 20px;
 }
 
 .about-text {
-  padding: 30% 0 0 0;
-  /* top: 25.5em; */
-  font-size: 1.5rem;
-  /* text-align: center; */
+  font-size: 1.3rem;
+  margin-top: 180px;
+}
+
+.about-wrapper {
+  height: 300px;
+  margin: auto;
 }
 
 .blog-entry p {
@@ -291,33 +296,48 @@ div.gh-card > div > p {
   margin: 0 -5px;
 }
 
-@media (max-width: 576px) {
-  .container {
+.container {
+  padding: 15px 0;
+}
+
+@media (min-width: 576px) {
+  div.container {
     width: 97%;
+    padding: 0;
   }
-  .nav {
-    display: list-item;
-  }
-  .nav-link:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-    color: rgba(255, 226, 103, 1);
+  article h2 {
+    font-size: 3rem;
   }
 }
 
 @media (min-width: 768px) {
-  .container {
+  div.container {
     width: 90%;
+    padding: 0;
+  }
+  .about-text {
+    margin-top: 0;
+  }
+  .triangle {
+    margin: 168px 0 0 280px;
+    border-top: 60px solid rgba(181, 181, 181, 0.08);
   }
 }
 
 @media (min-width: 992px) {
-  .container {
+  div.container {
     width: 80%;
+  }
+  .hello {
+    margin-right: 0;
   }
 }
 
 @media (min-width: 1200px) {
-  .container {
+  div.container {
     width: 70%;
+  }
+  .hello {
+    margin-right: 400px;
   }
 }
