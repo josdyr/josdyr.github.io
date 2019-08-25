@@ -1,7 +1,7 @@
 ---
 layout: home
 title:  "C# Checkers Game"
-date:   2019-04-20 21:09:45 +0100
+date:   2019-08-18 21:09:45 +0100
 categories: blog
 permalink: blog/:title
 intro: "C# Checkers Game."

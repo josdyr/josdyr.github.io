@@ -1,7 +1,7 @@
 ---
 layout: home
 title:  "Deep Q Network in Non-Deterministic Simulation 🐍"
-date:   2019-07-08 06:44:31
+date:   2019-08-25 06:44:31
 length: ", 3 min read"
 categories: blog
 permalink: blog/:title
