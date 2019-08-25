@@ -5,7 +5,7 @@ date:   2019-04-20 21:09:45 +0100
 categories: blog
 permalink: blog/:title
 intro: "This is an intro to how EA work and their best practises."
-visible: 0
+published: false
 ---
 <div class="container">
   <h1>{{page.title }}<br></h1>
