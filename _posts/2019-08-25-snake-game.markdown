@@ -11,7 +11,7 @@ intro: "This is a snake agent based simulation, trying to avoid the dangers of c
 <div class="container">
   <div class="blog-entry">
     <div id="jumbotrone">
-      <h1>{{page.title }}</h1>
+      <h1>{{page.title}}</h1>
       <div class="blog-metadata">
         <div class="portrait">
           <img id="min-portrait" src="../IMG_0657_5.png" alt="">
