@@ -18,6 +18,7 @@
 body {
   font-family: 'AvenirNextLTPro-Regular';
   background: #222629;
+  background: #cad4db;
   padding: 15px;
   height: 100%;
   min-height: 100vh;
@@ -26,11 +27,11 @@ body {
 }
 
 a {
-  color: #e3e3e3;
+  /* color: #e3e3e3; */
 }
 
 a:hover {
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .blue_link {
@@ -126,6 +127,7 @@ strong {
   font-size: 1.8rem;
   line-height: 3.2rem;
 }
+
 .contact a {
   font-size: 1.2rem;
   border-radius: 3px;
@@ -299,7 +301,7 @@ div.gh-card > div > p {
 
 .blog-entry p {
   margin: 0 0 1.3em 0;
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   color: rgb(190, 190, 190);
 }
 
